@@ -1,0 +1,20 @@
+[project]
+name = "step-8"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Saim-Hassan786", email = "saimaiengineer@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "chainlit>=2.5.5",
+    "openai-agents>=0.0.16",
+]
+
+[project.scripts]
+step-8 = "step_8:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

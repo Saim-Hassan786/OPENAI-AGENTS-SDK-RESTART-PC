@@ -1,0 +1,21 @@
+[project]
+name = "step-2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Saim-Hassan786", email = "saimaiengineer@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "chainlit>=2.5.5",
+    "openai-agents>=0.0.11",
+    "python-dotenv>=1.1.0",
+]
+
+[project.scripts]
+step-2 = "step_2:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
